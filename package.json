@@ -19,7 +19,7 @@
   "homepage": "https://github.com/tarikaytek/clean-blog#readme",
   "devDependencies": {
     "nodemon": "^3.1.4",
-    "prettier": "^3.3.3"
+    "prettier": "3.3.3"
   },
   "dependencies": {
     "ejs": "^3.1.10",
