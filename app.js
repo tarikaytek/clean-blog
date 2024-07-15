@@ -1,6 +1,12 @@
 const express = require('express');
+const ejs = require('ejs');
 
 const app = express();
+
+//template engine
+app.set('view engine', 'ejs');
+//MIDDLEWARES
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
 
